@@ -1,7 +1,17 @@
 /* Your Awesome Styling*/
 
+/* form*/
 
+label,
+input {
+  display: block;
+    margin: 1em;
+}
 
+input [type="submit"] {
+    border: 0;
+    
+}
 
 /* Mobile: 320px = 20em */
 @media screen and (min-width: 20em) { 
